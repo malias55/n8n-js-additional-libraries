@@ -11,8 +11,9 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "declaration": true,
-    "removeComments": true
+    "removeComments": true,
+    "typeRoots": ["./node_modules/@types", "./"]
   },
-  "include": ["nodes/**/*"],
+  "include": ["nodes/**/*", "types.d.ts"],
   "exclude": ["node_modules/**/*", "**/*.spec.ts"]
 } 
